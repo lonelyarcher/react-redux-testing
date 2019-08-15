@@ -1,9 +1,9 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import toJson from 'enzyme-to-json';
-import { App } from '../containers/App';
-import Picker from '../components/Picker';
-import * as actions from '../actions';
+import { App } from '../../containers/App';
+import Picker from '../../components/Picker';
+import * as actions from '../../actions';
 
 describe('App', () => {
     it('renders without crashing given the required props', () => {

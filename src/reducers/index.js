@@ -62,4 +62,5 @@ const rootReducer = combineReducers({
   selectedSubreddit
 })
 
-export default rootReducer
+export default rootReducer;
+export { postsBySubreddit, selectedSubreddit };
